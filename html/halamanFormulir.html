@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Halaman Formulir</title>
+    <link rel="stylesheet" href="../css/tebel.css">
+</head>
+<body>
+      <header>
+            <div class="container">
+                  <div class="logo">
+                        <img src="../image/letter-m.png" alt="ini logo">
+                        <h2>CORP</h2>
+                  </div>
+      
+                  <nav>
+                        <ul>
+                              <li><a href="halamanUtama.html">Halaman Utama</a></li>
+                              <li><a href="halamanFormulir.html">Halaman Formulir</a></li>
+                              <li><a href="halamanTabel.html">Halaman Tabel</a></li>
+                        </ul>
+                  </nav>
+            </div>
+      </header>
+
+    <main>
+          <h2>Formulir Pendaftaran</h2>
+          <form action="proses.php" method="get">
+              <label for="nama">Nama:</label>
+              <input type="text" id="nama" name="nama" required><br>
+              <label for="nim">NIM:</label>
+              <input type="text" id="nim" name="nim" required><br>
+              <label for="prodi">Program Studi:</label>
+              <input type="text" id="prodi" name="prodi" required><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required><br>
+              <label for="jk">Jenis Kelamin:</label>
+              <input type="radio" id="laki" name="jk" value="Laki-laki" required><label for="laki">Laki-laki</label>
+              <input type="radio" id="perempuan" name="jk" value="Perempuan" required><label for="perempuan">Perempuan</label><br>
+              <label for="tgl_lahir">Tanggal Lahir:</label>
+              <input type="date" id="tgl_lahir" name="tgl_lahir" required><br>
+              <label for="alamat">Alamat:</label>
+              <textarea id="alamat" name="alamat" required></textarea><br>
+              <input type="submit" value="Daftar" href="halamanTabel.html">
+
+
+          </form>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Hak Cipta Martin Ompusunggu</p>
+    </footer>
+</body>
+</html>

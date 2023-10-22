@@ -1,0 +1,154 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #EEEDED;
+      color: #333;
+      line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+      background-color: #0D1282;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .logo{
+        display:flex
+  }
+  
+  .logo h2{
+        margin-top:1.5rem;
+        margin-right:1rem;
+        color: white;      
+  }
+  .logo img {
+      width: 60px;
+      height: 60px;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+  }
+  
+  nav li {
+      margin-right: 20px;
+  }
+  
+  nav li:last-child {
+      margin-right: 0;
+  }
+  
+  nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+  }
+  
+  /* Hover effect for navigation items */
+  nav a:hover {
+      color: #FF5722;
+  }
+
+  main {
+      padding: 20px;
+      max-width: 1000px; /* Menentukan lebar maksimum halaman */
+      margin: 0 auto; /* Membuat halaman berada di tengah layar */
+  }
+  
+  h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+  }
+  
+  form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+  
+  input[type="radio"] {
+      margin-right: 5px;
+  }
+  
+  textarea {
+      height: 100px;
+  }
+  
+  input[type="submit"] {
+      background-color: #FF5722;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #E64A19;
+  }
+  
+  /* Footer styling */
+  footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+      main {
+          padding: 10px;
+      }
+  
+      form {
+          padding: 10px;
+      }
+  
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="date"],
+      textarea {
+          width: 100%;
+      }
+  }
